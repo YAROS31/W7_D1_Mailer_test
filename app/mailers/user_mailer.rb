@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-  default from: 'no-reply@monsite.fr'
+  default from: 'yassine.rochd@hotmail.fr' #adresse mail no-sender à changer 
  
   def welcome_email(user)
     #on récupère l'instance user pour ensuite pouvoir la passer à la view en @user
