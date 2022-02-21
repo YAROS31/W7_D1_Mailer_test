@@ -13,7 +13,7 @@ Rails.application.configure do
   config.consider_all_requests_local = true
 
   # YR - Ajout manuel des lignes suivantes pour le letter_opener test #
-  config.action_mailer.delivery_method = :letter_opener
+  #config.action_mailer.delivery_method = :letter_opener
   config.action_mailer.perform_deliveries = true #possibilité d'éteindre la fonction d'envoi d'email en passant en false#
 
 
